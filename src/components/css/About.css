@@ -1,0 +1,25 @@
+.about-container {
+  margin-top: 15px;
+  text-align: center;
+  padding: 8px; /* Adjust padding as needed */
+}
+
+.about-container h4 {
+  font-weight: bold;
+  margin-top: 16px; /* Adjust margin as needed */
+  font-size: 2rem;
+}
+
+.about-container p {
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .about-container {
+    margin-top: 0;
+  }
+
+  .about-container h4 {
+    font-size: 1.5rem;
+  }
+}
